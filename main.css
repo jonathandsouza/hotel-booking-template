@@ -1,0 +1,471 @@
+/*BOC BOOTSTRAP OVERRIDES */
+
+.form-group input, select {
+	border-radius: 0px;
+}
+
+.form-group select.form-control {
+	border-radius: 0px;
+}
+
+.form-group label {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+/*EOC BOOTSTRAP OVERRIDES */
+
+/* BOC GLOBAL STYLES */
+
+body {
+	background: #666;
+	color: #1c1c1c;
+	font-family: 'Merriweather', serif;
+}
+
+.background-wrapper {
+	background: #fff;
+	margin: 0 auto;
+	height: 100%;
+}
+
+/*EOC GLOBAL STYLES */
+
+/*BOC SECTION NAVIGATION  */
+
+.content-wrapper {
+	margin: 0 auto;
+	background: white;
+
+}
+
+.main-content {
+	padding: 50px 0px 50px 0px;
+}
+
+.booking-step-wrapper {
+	position: relative;
+	margin: 0 0 40px 0;
+}
+
+.booking-step-wrapper .step-wrapper {
+	float: left;
+	margin: 20px 50px 0 0;
+}
+
+.booking-step-wrapper .step-wrapper .step-icon-wrapper {
+	background: #fff;
+	width: 80px;
+	margin: 0 auto;
+	z-index: 2;
+	position: relative;
+}
+
+.booking-step-wrapper .step-wrapper .step-icon-wrapper .step-icon {
+	color: #fff;
+	font-size: 18px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding: 7px 0 0 0px;
+	border-radius: 99%;
+	margin: 0 auto;
+	z-index: 2;
+	position: relative;
+	background: #1c1c1c;
+}
+
+.booking-step-wrapper .step-wrapper .step-icon-wrapper .step-icon-current {
+	background: #bf9958;
+}
+
+.booking-step-wrapper .step-wrapper .step-title {
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin: 14px 0 0 0;
+	line-height: 130%;
+}
+
+.step-line {
+	background: #e8e8e8;
+	height: 1px;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: -92px;
+	right: 35px;
+	z-index: 1;
+}
+
+.last-col {
+	margin-right: 0 !important;
+}
+
+/*EOC SECTION NAVIGATION */
+
+/*BOC DATE SELECTION SECTION */
+
+.booking-date-selection {
+	padding-left: 50px;
+}
+
+/*ECO DATE SELECTION SECTION */
+
+.calendar-message-container {
+	background: #bf9958;
+	color: white;
+	text-align: center;
+	line-height: 3;
+	margin-bottom: 30px;
+}
+
+.calendar-control-container {
+	background: #1c1c1c;
+	border-bottom: 5px solid;
+	padding: 30px;
+	border-color: #bf9958;
+	margin: 20px;
+}
+
+.datepicker-key {
+	color: #fff;
+	font-size: 12px;
+	margin: 30px 0 0 0;
+}
+
+.key-unavailable-wrapper, .key-available-wrapper, .key-selected-wrapper {
+	float: left;
+}
+
+.key-unavailable-icon, .key-available-icon, .key-selected-icon {
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin: 2px 0 0 0;
+}
+
+.key-unavailable-text, .key-available-text, .key-selected-text {
+	float: left;
+	margin: 0 15px 0 5px;
+}
+
+.key-unavailable-icon {
+	background: #424242;
+}
+
+.key-available-icon {
+	background: #424242;
+}
+
+.key-selected-icon {
+	background: #bf9958;
+}
+
+/*BOC CALENDAR */
+
+.calendar-title {
+	color:white;
+}
+
+.custom-datepicker {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+
+}
+
+.custom-datepicker .ui-datepicker-header {
+	padding-bottom: 20px;
+	position: relative;
+
+}
+
+.custom-datepicker .ui-datepicker-prev {
+	background: url(images/date_arrows.png) no-repeat -8px 4px #fff;
+
+	top: 0;
+	left: 0;
+}
+
+.custom-datepicker .ui-datepicker-next {
+	background: url(images/date_arrows.png) no-repeat -86px 4px #fff;
+	top: 0;
+	right: 0;
+}
+
+.custom-datepicker .ui-datepicker-next, .custom-datepicker .ui-datepicker-prev {
+	width: 25px;
+	height: 25px;
+	border-radius: 99%;
+	text-indent: -9999px;
+	position: absolute;
+
+}
+
+.custom-datepicker .ui-datepicker-title {
+	font-size: 13px;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	color: white;
+}
+
+.custom-datepicker table {
+	width: 100%
+}
+
+.custom-datepicker table thead th {
+	text-align: center;
+	font-size: 13px;
+	border-top: 1px solid #424242;
+	border-bottom: 1px solid #424242;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.custom-datepicker table td {
+	text-align: center;
+	border: 1px solid #1c1c1c;
+}
+
+.custom-datepicker table td a.ui-state-default {
+	text-align: center;
+	background: #424242;
+	display: block;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.custom-datepicker table td a.ui-state-default:hover {
+	background: #bf9958;
+}
+
+.selected-date{
+	background: #bf9958 !important;
+}
+
+/*EOC CALENDAR */
+
+/*BOC BOOKING SIDE */
+
+/* enable absolute positioning */
+.inner-addon {
+	position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+	position: absolute;
+	padding: 10px;
+	pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+	left: 0px;
+}
+
+.right-addon .glyphicon {
+	right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+	padding-left: 30px;
+}
+
+.right-addon input {
+	padding-right: 30px;
+}
+
+.booking-side-container .glyphicon {
+	color: #1c1c1c;
+}
+
+.booking-side-container {
+	background: #1c1c1c;
+	padding: 20px;
+	color: white;
+}
+
+.booking-side-container .title {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.title .title-block {
+	width: 48px;
+	height: 3px;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	background: #bf9958;
+}
+
+.from-to-date-container, .room-container, .pax-container {
+
+	margin-bottom: 10px;
+	border-bottom: 1px solid #424242;
+
+}
+
+.checkAvailibilityButton {
+	margin-top: 20px;
+	background: #bf9958;
+	font-weight: 400;
+	padding: 9px 10px;
+	-webkit-appearance: none;
+	align-items: flex-start;
+	text-align: center;
+	box-sizing: border-box;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	border: none;
+}
+
+.booking-form {
+	margin-top: 20px;
+}
+
+/*EOC BOOKING SIDE */
+
+/*BOC BOOKING CONTAINER */
+
+.room-list-container {
+	background: #1c1c1c;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+}
+
+.room-list-container .title {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.room-list-container ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.room-list-container .room-list .room-item .room-options {
+	text-align: center;
+}
+
+.room-item {
+	border-top: 1px solid #424242;
+	padding-top: 20px;
+}
+
+.room-header {
+	margin-bottom: 10px;
+}
+
+.room-header .title {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/*.booking-room-selection-container .title .title-block {*/
+	/*width: 48px;*/
+	/*height: 3px;*/
+	/*display: block;*/
+	/*position: absolute;*/
+	/*left: 50px;*/
+	/*bottom: 0px;*/
+	/*background: #bf9958;*/
+/*}*/
+
+/*EOC BOOKING CONTAINER */
+
+/*BOC RESERVATION */
+
+.reservation-info-container {
+	background: #1c1c1c;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+}
+
+.reservation-info-container .title {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.reservation-info-container ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.reservation-details .details-item {
+	border-top: 1px solid #424242;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*RESERVATION INFO */
+
+/*BOC GUEST INFORMATION */
+
+.guest-info-container {
+	background: #1c1c1c;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+}
+
+.guest-info-container .title {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.guest-info-notification-container{
+	background: #bf9958;
+	color: white;
+	text-align: center;
+	line-height: 3;
+	margin-bottom: 30px;
+
+}
+
+/*EOC GUEST INFORMATION */
+
+
+
+/* BOC RESERVATION COMPLETE */
+
+.booking-reservation-container{
+	background: #1c1c1c;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+}
+
+.booking-reservation-container .title {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+/* EOC RESERVATION COMPLETE */
+
+
+.title .title-block {
+	width: 48px;
+	height: 3px;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	background: #bf9958;
+}
